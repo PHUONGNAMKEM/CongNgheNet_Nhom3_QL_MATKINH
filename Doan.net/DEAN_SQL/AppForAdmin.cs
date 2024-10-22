@@ -617,7 +617,7 @@ namespace DEAN_SQL
             {
                 string tenSanPham = item.SubItems[1].Text;
                 string donGia = item.SubItems[2].Text;
-                string soLuong = item.SubItems[3].Text;
+                string soLuong = item.SubItems[4].Text;
                 string thanhTien = item.SubItems[5].Text;
 
                 e.Graphics.DrawString($"{tenSanPham} x{soLuong} - {thanhTien}đ", new System.Drawing.Font("Arial", 12), Brushes.Black, new PointF(100, yPos));

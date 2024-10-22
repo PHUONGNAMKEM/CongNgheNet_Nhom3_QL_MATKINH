@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\dean_sql\\appforadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|solutionrelative:dean_sql\\appforadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\dean_sql\\appforadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|solutionrelative:dean_sql\\appforadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|d:\\h\u1ECDc t\u1EADp\\cn.net\\doan.net\\doan.net\\dean_sql\\khuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|solutionrelative:dean_sql\\khuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\dean_sql\\khuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|solutionrelative:dean_sql\\khuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A50AA8F-F366-4104-9021-A4036888AF94}|DAL\\DAL.csproj|D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\dal\\khuyenmai_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A50AA8F-F366-4104-9021-A4036888AF94}|DAL\\DAL.csproj|solutionrelative:dal\\khuyenmai_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351F1BF6-CA8E-44F9-A9A1-2107A5BAE487}|BLL\\BLL.csproj|D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\bll\\khuyenmai_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351F1BF6-CA8E-44F9-A9A1-2107A5BAE487}|BLL\\BLL.csproj|solutionrelative:bll\\khuyenmai_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351F1BF6-CA8E-44F9-A9A1-2107A5BAE487}|BLL\\BLL.csproj|D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\bll\\nhanvien_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351F1BF6-CA8E-44F9-A9A1-2107A5BAE487}|BLL\\BLL.csproj|solutionrelative:bll\\nhanvien_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\dean_sql\\khuyenmai.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|solutionrelative:dean_sql\\khuyenmai.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A50AA8F-F366-4104-9021-A4036888AF94}|DAL\\DAL.csproj|D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\dal\\nhanvien_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A50AA8F-F366-4104-9021-A4036888AF94}|DAL\\DAL.csproj|solutionrelative:dal\\nhanvien_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\dean_sql\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC7970D-5513-4FA7-95F5-AD6541377E98}|DEAN_SQL\\GUI.csproj|solutionrelative:dean_sql\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KhuyenMai_DAL.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DAL\\KhuyenMai_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\KhuyenMai_DAL.cs",
+              "ToolTip": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DAL\\KhuyenMai_DAL.cs",
+              "RelativeToolTip": "DAL\\KhuyenMai_DAL.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAkwE4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:35:27.837Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KhuyenMai_BLL.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\BLL\\KhuyenMai_BLL.cs",
+              "RelativeDocumentMoniker": "BLL\\KhuyenMai_BLL.cs",
+              "ToolTip": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\BLL\\KhuyenMai_BLL.cs",
+              "RelativeToolTip": "BLL\\KhuyenMai_BLL.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAApwDsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:35:55.638Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KhuyenMai.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\KhuyenMai.cs",
+              "RelativeDocumentMoniker": "DEAN_SQL\\KhuyenMai.cs",
+              "ToolTip": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\KhuyenMai.cs [Design]",
+              "RelativeToolTip": "DEAN_SQL\\KhuyenMai.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:36:10.44Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KhuyenMai.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\KhuyenMai.cs",
+              "RelativeDocumentMoniker": "DEAN_SQL\\KhuyenMai.cs",
+              "ToolTip": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\KhuyenMai.cs",
+              "RelativeToolTip": "DEAN_SQL\\KhuyenMai.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwEUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:26:30.988Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\NhanVien.cs",
+              "RelativeDocumentMoniker": "DEAN_SQL\\NhanVien.cs",
+              "ToolTip": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\NhanVien.cs",
+              "RelativeToolTip": "DEAN_SQL\\NhanVien.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAuwIoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:26:17.4Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NhanVien_DAL.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DAL\\NhanVien_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\NhanVien_DAL.cs",
+              "ToolTip": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DAL\\NhanVien_DAL.cs",
+              "RelativeToolTip": "DAL\\NhanVien_DAL.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwFYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:36:50.048Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NhanVien_BLL.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\BLL\\NhanVien_BLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NhanVien_BLL.cs",
+              "ToolTip": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\BLL\\NhanVien_BLL.cs",
+              "RelativeToolTip": "BLL\\NhanVien_BLL.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:36:54.922Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KhuyenMai.Designer.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\KhuyenMai.Designer.cs",
+              "RelativeDocumentMoniker": "DEAN_SQL\\KhuyenMai.Designer.cs",
+              "ToolTip": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\KhuyenMai.Designer.cs",
+              "RelativeToolTip": "DEAN_SQL\\KhuyenMai.Designer.cs",
+              "ViewState": "AQIAAA0BAAAAAAAAAAAowBUBAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T10:08:55.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppForAdmin.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\AppForAdmin.cs",
+              "RelativeDocumentMoniker": "DEAN_SQL\\AppForAdmin.cs",
+              "ToolTip": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\AppForAdmin.cs",
+              "RelativeToolTip": "DEAN_SQL\\AppForAdmin.cs",
+              "ViewState": "AQIAAGkBAAAAAAAAAADwvycCAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:44:09.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppForAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\AppForAdmin.cs",
+              "RelativeDocumentMoniker": "DEAN_SQL\\AppForAdmin.cs",
+              "ToolTip": "D:\\H\u1ECDc T\u1EADp\\CN.NET\\Doan.net\\Doan.net\\DEAN_SQL\\AppForAdmin.cs [Design]",
+              "RelativeToolTip": "DEAN_SQL\\AppForAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:43:22.071Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

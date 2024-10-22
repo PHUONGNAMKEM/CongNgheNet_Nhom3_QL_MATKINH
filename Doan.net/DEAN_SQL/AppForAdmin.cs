@@ -14,6 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace DEAN_SQL
@@ -46,6 +47,8 @@ namespace DEAN_SQL
             this.Text = string.Empty;
             this.ControlBox = false;
             this.DoubleBuffered = true;
+            lstbanhang.AutoResizeColumns(ColumnHeaderAutoResizeStyle.None);
+
         }
 
 
@@ -417,7 +420,7 @@ namespace DEAN_SQL
                     string ngayLap = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
                     // 2. Lưu thông tin hóa đơn vào cơ sở dữ liệu
-                    using (SqlConnection conn = new SqlConnection("Data Source=LAPTOP-H6IDD6F8\\SQLEXPRESS;Initial Catalog=DEAN5;Integrated Security=True;Encrypt=False"))  // Thay "connectionString" bằng chuỗi kết nối của bạn
+                    using (SqlConnection conn = new SqlConnection("Data Source=LAPTOP-7VLSR7BE\\SQLEXPRESS02;Initial Catalog=DEAN5;Integrated Security=True;Encrypt=False"))  // Thay "connectionString" bằng chuỗi kết nối của bạn
                     {
                         conn.Open();
 
@@ -630,6 +633,11 @@ namespace DEAN_SQL
         }
 
         private void AppForAdmin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelButtonBanHang_Paint(object sender, PaintEventArgs e)
         {
 
         }

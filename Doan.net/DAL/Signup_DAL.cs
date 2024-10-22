@@ -14,7 +14,7 @@ namespace DAL
         public void signup(Signup_DTO signup)
         {
             int kq;
-            string connectionString = @"Data Source=LAPTOP-H6IDD6F8\SQLEXPRESS;Initial Catalog=DEAN4;Integrated Security=True;Encrypt=False";//Kết nối sql server lưu ý mỗi máy có Source=LAPTOP-H6IDD6F8\SQLEXPRESS khác nhau nên cần xem Source của mình là gì cũng như tên đề án đúng ko
+            string connectionString = @"Data Source=LAPTOP-7VLSR7BE\SQLEXPRESS02;Initial Catalog=DEAN4;Integrated Security=True;Encrypt=False";//Kết nối sql server lưu ý mỗi máy có Source=LAPTOP-H6IDD6F8\SQLEXPRESS khác nhau nên cần xem Source của mình là gì cũng như tên đề án đúng ko
             string database = "DEAN5";
             using (connection = new SqlConnection(connectionString))
             {

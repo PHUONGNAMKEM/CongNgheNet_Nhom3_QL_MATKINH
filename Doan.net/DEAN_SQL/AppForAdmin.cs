@@ -9,6 +9,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Drawing.Printing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -42,6 +43,9 @@ namespace DEAN_SQL
             Login_DTO login = new Login_DTO(name, password, servername, database);
             BLL_HH.login(login);
 
+            this.Text = string.Empty;
+            this.ControlBox = false;
+            this.DoubleBuffered = true;
         }
 
 
@@ -73,9 +77,10 @@ namespace DEAN_SQL
 
         private void btnWorkWithData_Click(object sender, EventArgs e)
         {
-            WorkWithData workWithData = new WorkWithData(lblPhanQuyen.Text, user, pass, sever, data);
-            workWithData.Show();
-            this.Close();
+            //WorkWithData workWithData = new WorkWithData(lblPhanQuyen.Text, user, pass, sever, data);
+            //workWithData.Show();
+            OpenChildForm(new WorkWithData(lblPhanQuyen.Text, user, pass, sever, data));
+            //this.Close();
         }
 
 
@@ -135,99 +140,131 @@ namespace DEAN_SQL
 
         private void btnKhachHang_Click(object sender, EventArgs e)
         {
-            KhachHang kh = new KhachHang(user, pass, sever, data);
-            kh.Show();
+            //KhachHang kh = new KhachHang(user, pass, sever, data);
+            //kh.Show();
+            OpenChildForm(new KhachHang(user, pass, sever, data));
         }
 
         private void btnhoadon_Click(object sender, EventArgs e)
         {
             panelcontainer.Controls.Clear();
-            HoaDon hd = new HoaDon(user, pass, sever, data);
+            //HoaDon hd = new HoaDon(user, pass, sever, data);
+
+            OpenChildForm(new HoaDon(user, pass, sever, data));
+
             //hd.TopLevel = false; // Đặt formCon là form con không có thanh tiêu đề riêng.
             //hd.FormBorderStyle = FormBorderStyle.None; // Bỏ viền của form con.
             //hd.Dock = DockStyle.Fill; // Form con sẽ chiếm toàn bộ khu vực chứa.
             //// Giả sử bạn có một Panel tên là panelContainer trong FormCha
             //hd.Parent = panelcontainer;
             //hd.Dock = DockStyle.Fill; // Tùy chọn: Hoặc điều chỉnh vị trí theo nhu cầu.
-            hd.Show();
+
+            //hd.Show();
         }
 
         private void btnchitiethoadon_Click(object sender, EventArgs e)
         {
-            CHITIETHOADON ct = new CHITIETHOADON(user, pass, sever, data);
-            ct.Show();
+            //CHITIETHOADON ct = new CHITIETHOADON(user, pass, sever, data);
+            //ct.Show();
+            OpenChildForm(new CHITIETHOADON(user, pass, sever, data));
         }
 
         private void btnhanghoa_Click(object sender, EventArgs e)
         {
-           
-            panelcontainer.Controls.Clear();
-            HangHoa hh = new HangHoa(user, pass, sever, data);
+
+            OpenChildForm(new HangHoa(user, pass, sever, data));
+            //panelcontainer.Controls.Clear(); -- dòng này command lại
+            //HangHoa hh = new HangHoa(user, pass, sever, data); -- dòng này command lại
+
             //hh.TopLevel = false; // Đặt formCon là form con không có thanh tiêu đề riêng.
             //hh.FormBorderStyle = FormBorderStyle.None; // Bỏ viền của form con.
             //hh.Dock = DockStyle.Fill; // Form con sẽ chiếm toàn bộ khu vực chứa.
             //// Giả sử bạn có một Panel tên là panelContainer trong FormCha
             //hh.Parent = panelcontainer;
             //hh.Dock = DockStyle.Fill; // Tùy chọn: Hoặc điều chỉnh vị trí theo nhu cầu.
-            hh.Show();
+
+            //hh.Show();  -- dòng này command lại
         }
         private void btnkhuyenmai_Click(object sender, EventArgs e)
         {
-            KhuyenMai km = new KhuyenMai(user, pass, sever, data);
-            km.Show();
+            //KhuyenMai km = new KhuyenMai(user, pass, sever, data);
+            //km.Show();
+            OpenChildForm(new KhuyenMai(user, pass, sever, data));
 
         }
 
         private void btnloaihang_Click(object sender, EventArgs e)
         {
-            LoaiHang lh = new LoaiHang(user, pass, sever, data);
-            lh.Show();
+            //LoaiHang lh = new LoaiHang(user, pass, sever, data);
+            //lh.Show();
+            OpenChildForm(new LoaiHang(user, pass, sever, data));
         }
 
         private void btnchitietpn_Click(object sender, EventArgs e)
         {
-            CHITIETPN ctpn = new CHITIETPN( user, pass, sever, data);
-            ctpn.Show();
+            //CHITIETPN ctpn = new CHITIETPN( user, pass, sever, data);
+            //ctpn.Show();
+            OpenChildForm(new CHITIETPN(user, pass, sever, data));
         }
 
         private void btnphieunhap_Click(object sender, EventArgs e)
         {
-            PHIEUNHAP pn = new PHIEUNHAP(user, pass, sever, data);
-            pn.Show();
+            //PHIEUNHAP pn = new PHIEUNHAP(user, pass, sever, data);
+            //pn.Show();
+            OpenChildForm(new PHIEUNHAP(user, pass, sever, data));
         }
 
         private void btnnhacc_Click(object sender, EventArgs e)
         {
-            NHACC ncc = new NHACC(user, pass, sever, data);
-            ncc.Show();
+            //NHACC ncc = new NHACC(user, pass, sever, data);
+            //ncc.Show();
+            OpenChildForm(new NHACC(user, pass, sever, data));
         }
 
         private void btnnhanvien_Click(object sender, EventArgs e)
         {
-            NhanVien nv = new NhanVien(user, pass, sever, data);
-            nv.Show();
+            //NhanVien nv = new NhanVien(user, pass, sever, data);
+            //nv.Show();
+            OpenChildForm(new NhanVien(user, pass, sever, data));
         }
 
 
         private void btnbanhang_Click(object sender, EventArgs e)
         {
-            panelkhachhang.Visible = true;
-            panelboloc.Visible = true;
+            //panelkhachhang.Visible = true;
+            //panelboloc.Visible = true;
+            //panelbanhang.Visible = true;
+            //lstbanhang.Visible = true;
+            //LoadProducts();
+
+            panelButtonBanHang.BringToFront();
             panelbanhang.Visible = true;
             lstbanhang.Visible = true;
+            flowLayoutPanelProducts.Visible = true;
+            panelcontainer.Visible = true;
+
+            panelMainDesktop.BringToFront();
+
+            panelbanhang.BringToFront();
+            lstbanhang.BringToFront();
+            flowLayoutPanelProducts.BringToFront();
+            panelcontainer.BringToFront();
+
             LoadProducts();
         }
 
         private void btnchitietkhuyenmai_Click(object sender, EventArgs e)
         {
-            ChiTietKhuyenMai ctkm = new ChiTietKhuyenMai(user, pass, sever, data);
-            ctkm.Show();
+            //ChiTietKhuyenMai ctkm = new ChiTietKhuyenMai(user, pass, sever, data);
+            //ctkm.Show();
+            OpenChildForm(new ChiTietKhuyenMai(user, pass, sever, data));
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ThongTinNhanVien ttnv = new ThongTinNhanVien(user, pass, sever, data);
-            ttnv.Show();
+            //ThongTinNhanVien ttnv = new ThongTinNhanVien(user, pass, sever, data);
+            //ttnv.Show();
+            OpenChildForm(new ThongTinNhanVien(user, pass, sever, data));
         }
 
         private void txttienkhachtra_TextChanged(object sender, EventArgs e)
@@ -378,7 +415,7 @@ namespace DEAN_SQL
                     string ngayLap = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
                     // 2. Lưu thông tin hóa đơn vào cơ sở dữ liệu
-                    using (SqlConnection conn = new SqlConnection("Data Source=LAPTOP-H6IDD6F8\\SQLEXPRESS;Initial Catalog=DEAN5;Integrated Security=True;Encrypt=False"))  // Thay "connectionString" bằng chuỗi kết nối của bạn
+                    using (SqlConnection conn = new SqlConnection("Data Source=LAPTOP-7VLSR7BE\\SQLEXPRESS02;Initial Catalog=DEAN5;Integrated Security=True;Encrypt=False"))  // Thay "connectionString" bằng chuỗi kết nối của bạn
                     {
                         conn.Open();
 
@@ -536,7 +573,20 @@ namespace DEAN_SQL
 
         }
 
-  
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        //Drag Form
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int Msg, int wParam, int lParam);
+        private void panel3_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
 
         private void InHoaDon(string maHoaDon, string ngayLap)
         {
@@ -581,7 +631,22 @@ namespace DEAN_SQL
             return "HD" + DateTime.Now.ToString("yyyyMMddHHmmss");
         }
 
-
+        private Form currentChildForm;
+        private void OpenChildForm(Form childForm)
+        {
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
+            currentChildForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelMainDesktop.Controls.Add(childForm);
+            panelMainDesktop.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
 
     }
 }

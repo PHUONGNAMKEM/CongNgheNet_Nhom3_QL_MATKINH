@@ -218,7 +218,11 @@ namespace DEAN_SQL
             LoadProducts();
         }
 
-
+        private void btnchitietkhuyenmai_Click(object sender, EventArgs e)
+        {
+            ChiTietKhuyenMai ctkm = new ChiTietKhuyenMai(user, pass, sever, data);
+            ctkm.Show();
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -532,10 +536,7 @@ namespace DEAN_SQL
 
         }
 
-        private void btnchitietkhuyenmai_Click(object sender, EventArgs e)
-        {
-
-        }
+  
 
         private void InHoaDon(string maHoaDon, string ngayLap)
         {

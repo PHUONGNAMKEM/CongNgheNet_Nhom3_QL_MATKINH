@@ -45,6 +45,8 @@
             this.btnKhachHang = new System.Windows.Forms.Button();
             this.btnnew = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnchitietkhuyenmai = new System.Windows.Forms.Button();
+            this.btnkhuyenmai = new System.Windows.Forms.Button();
             this.btnbanhang = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -85,8 +87,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnkhuyenmai = new System.Windows.Forms.Button();
-            this.btnchitietkhuyenmai = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -411,6 +411,46 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(237, 990);
             this.panel1.TabIndex = 26;
+            // 
+            // btnchitietkhuyenmai
+            // 
+            this.btnchitietkhuyenmai.BackColor = System.Drawing.Color.Turquoise;
+            this.btnchitietkhuyenmai.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnchitietkhuyenmai.FlatAppearance.BorderSize = 3;
+            this.btnchitietkhuyenmai.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btnchitietkhuyenmai.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnchitietkhuyenmai.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnchitietkhuyenmai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnchitietkhuyenmai.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnchitietkhuyenmai.ForeColor = System.Drawing.Color.White;
+            this.btnchitietkhuyenmai.Location = new System.Drawing.Point(19, 861);
+            this.btnchitietkhuyenmai.Margin = new System.Windows.Forms.Padding(4);
+            this.btnchitietkhuyenmai.Name = "btnchitietkhuyenmai";
+            this.btnchitietkhuyenmai.Size = new System.Drawing.Size(199, 47);
+            this.btnchitietkhuyenmai.TabIndex = 28;
+            this.btnchitietkhuyenmai.Text = "Chi tiết khuyến mãi";
+            this.btnchitietkhuyenmai.UseVisualStyleBackColor = false;
+            this.btnchitietkhuyenmai.Click += new System.EventHandler(this.btnchitietkhuyenmai_Click);
+            // 
+            // btnkhuyenmai
+            // 
+            this.btnkhuyenmai.BackColor = System.Drawing.Color.Turquoise;
+            this.btnkhuyenmai.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnkhuyenmai.FlatAppearance.BorderSize = 3;
+            this.btnkhuyenmai.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btnkhuyenmai.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnkhuyenmai.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnkhuyenmai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnkhuyenmai.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnkhuyenmai.ForeColor = System.Drawing.Color.White;
+            this.btnkhuyenmai.Location = new System.Drawing.Point(19, 806);
+            this.btnkhuyenmai.Margin = new System.Windows.Forms.Padding(4);
+            this.btnkhuyenmai.Name = "btnkhuyenmai";
+            this.btnkhuyenmai.Size = new System.Drawing.Size(199, 47);
+            this.btnkhuyenmai.TabIndex = 27;
+            this.btnkhuyenmai.Text = "Khuyến mãi";
+            this.btnkhuyenmai.UseVisualStyleBackColor = false;
+            this.btnkhuyenmai.Click += new System.EventHandler(this.btnkhuyenmai_Click);
             // 
             // btnbanhang
             // 
@@ -806,46 +846,6 @@
             this.label6.Size = new System.Drawing.Size(103, 16);
             this.label6.TabIndex = 0;
             this.label6.Text = "Tên khách hàng";
-            // 
-            // btnkhuyenmai
-            // 
-            this.btnkhuyenmai.BackColor = System.Drawing.Color.Turquoise;
-            this.btnkhuyenmai.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnkhuyenmai.FlatAppearance.BorderSize = 3;
-            this.btnkhuyenmai.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.btnkhuyenmai.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnkhuyenmai.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnkhuyenmai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnkhuyenmai.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnkhuyenmai.ForeColor = System.Drawing.Color.White;
-            this.btnkhuyenmai.Location = new System.Drawing.Point(19, 806);
-            this.btnkhuyenmai.Margin = new System.Windows.Forms.Padding(4);
-            this.btnkhuyenmai.Name = "btnkhuyenmai";
-            this.btnkhuyenmai.Size = new System.Drawing.Size(199, 47);
-            this.btnkhuyenmai.TabIndex = 27;
-            this.btnkhuyenmai.Text = "Khuyến mãi";
-            this.btnkhuyenmai.UseVisualStyleBackColor = false;
-            this.btnkhuyenmai.Click += new System.EventHandler(this.btnkhuyenmai_Click);
-            // 
-            // btnchitietkhuyenmai
-            // 
-            this.btnchitietkhuyenmai.BackColor = System.Drawing.Color.Turquoise;
-            this.btnchitietkhuyenmai.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnchitietkhuyenmai.FlatAppearance.BorderSize = 3;
-            this.btnchitietkhuyenmai.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.btnchitietkhuyenmai.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnchitietkhuyenmai.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnchitietkhuyenmai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnchitietkhuyenmai.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnchitietkhuyenmai.ForeColor = System.Drawing.Color.White;
-            this.btnchitietkhuyenmai.Location = new System.Drawing.Point(19, 861);
-            this.btnchitietkhuyenmai.Margin = new System.Windows.Forms.Padding(4);
-            this.btnchitietkhuyenmai.Name = "btnchitietkhuyenmai";
-            this.btnchitietkhuyenmai.Size = new System.Drawing.Size(199, 47);
-            this.btnchitietkhuyenmai.TabIndex = 28;
-            this.btnchitietkhuyenmai.Text = "Bán hàng";
-            this.btnchitietkhuyenmai.UseVisualStyleBackColor = false;
-            this.btnchitietkhuyenmai.Click += new System.EventHandler(this.btnchitietkhuyenmai_Click);
             // 
             // AppForAdmin
             // 

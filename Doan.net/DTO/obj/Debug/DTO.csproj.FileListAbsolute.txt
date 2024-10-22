@@ -16,3 +16,9 @@ D:\Học Tập\CN.NET\Doan.net\Doan.net\DTO\obj\Debug\DTO.csproj.AssemblyReferen
 D:\Học Tập\CN.NET\Doan.net\Doan.net\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Học Tập\CN.NET\Doan.net\Doan.net\DTO\obj\Debug\DTO.dll
 D:\Học Tập\CN.NET\Doan.net\Doan.net\DTO\obj\Debug\DTO.pdb
+D:\Học Tập\CN.NET\Doan.net-github\CongNgheNet_Nhom3_QL_MATKINH\Doan.net\DTO\bin\Debug\DTO.dll
+D:\Học Tập\CN.NET\Doan.net-github\CongNgheNet_Nhom3_QL_MATKINH\Doan.net\DTO\bin\Debug\DTO.pdb
+D:\Học Tập\CN.NET\Doan.net-github\CongNgheNet_Nhom3_QL_MATKINH\Doan.net\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Học Tập\CN.NET\Doan.net-github\CongNgheNet_Nhom3_QL_MATKINH\Doan.net\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Học Tập\CN.NET\Doan.net-github\CongNgheNet_Nhom3_QL_MATKINH\Doan.net\DTO\obj\Debug\DTO.dll
+D:\Học Tập\CN.NET\Doan.net-github\CongNgheNet_Nhom3_QL_MATKINH\Doan.net\DTO\obj\Debug\DTO.pdb

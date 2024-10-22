@@ -238,6 +238,8 @@ namespace DEAN_SQL
             //LoadProducts();
 
             panelButtonBanHang.BringToFront();
+            panelkhachhang.Visible = true;
+            panelboloc.Visible = true;
             panelbanhang.Visible = true;
             lstbanhang.Visible = true;
             flowLayoutPanelProducts.Visible = true;
@@ -415,7 +417,7 @@ namespace DEAN_SQL
                     string ngayLap = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
                     // 2. Lưu thông tin hóa đơn vào cơ sở dữ liệu
-                    using (SqlConnection conn = new SqlConnection("Data Source=LAPTOP-7VLSR7BE\\SQLEXPRESS02;Initial Catalog=DEAN5;Integrated Security=True;Encrypt=False"))  // Thay "connectionString" bằng chuỗi kết nối của bạn
+                    using (SqlConnection conn = new SqlConnection("Data Source=LAPTOP-H6IDD6F8\\SQLEXPRESS;Initial Catalog=DEAN5;Integrated Security=True;Encrypt=False"))  // Thay "connectionString" bằng chuỗi kết nối của bạn
                     {
                         conn.Open();
 
@@ -613,10 +615,10 @@ namespace DEAN_SQL
             float yPos = 190;
             foreach (ListViewItem item in lstbanhang.Items)
             {
-                string tenSanPham = item.SubItems[0].Text;
-                string donGia = item.SubItems[1].Text;
+                string tenSanPham = item.SubItems[1].Text;
+                string donGia = item.SubItems[2].Text;
                 string soLuong = item.SubItems[3].Text;
-                string thanhTien = item.SubItems[4].Text;
+                string thanhTien = item.SubItems[5].Text;
 
                 e.Graphics.DrawString($"{tenSanPham} x{soLuong} - {thanhTien}đ", new System.Drawing.Font("Arial", 12), Brushes.Black, new PointF(100, yPos));
                 yPos += 30;
@@ -626,6 +628,12 @@ namespace DEAN_SQL
             e.Graphics.DrawString($"Tiền khách trả: {txttienkhachtra.Text:N0}đ", new System.Drawing.Font("Arial", 12), Brushes.Black, new PointF(100, yPos+30));
             e.Graphics.DrawString($"Tiền thừa: {float.Parse(txttienkhachtra.Text) - total:N0}đ", new System.Drawing.Font("Arial", 12), Brushes.Black, new PointF(100, yPos+60));
         }
+
+        private void AppForAdmin_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private string GenerateMaHoaDon()
         {
             return "HD" + DateTime.Now.ToString("yyyyMMddHHmmss");
